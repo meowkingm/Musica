@@ -37,7 +37,7 @@ class WindowsTaskbarService {
       _smtc = SMTCWindows(
         metadata: const MusicMetadata(
           title: 'Ready',
-          artist: 'Simple Music Player',
+          artist: 'Ritesh Music',
           album: '',
           thumbnail: null,
         ),

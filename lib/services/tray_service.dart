@@ -163,7 +163,7 @@ class TrayService with TrayListener {
   int _findFlutterHwnd() {
     if (_user32 == null) return 0;
     final findWindow = _user32!.lookupFunction<_FindWindowNative, _FindWindowDart>('FindWindowW');
-    final title = 'Simple Music Player'.toNativeUtf16();
+    final title = 'Ritesh Music'.toNativeUtf16();
     try {
       final hwnd = findWindow(nullptr, title);
       return hwnd;
