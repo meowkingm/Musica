@@ -2184,7 +2184,7 @@ class WindowButtons extends ConsumerWidget {
               height: 32,
             ),
             const SizedBox(width: 12),
-            const Text("Simple Music Player New Gen"),
+            const Text("Ritesh Music"),
           ],
         ),
         content: Column(
@@ -2218,7 +2218,7 @@ class WindowButtons extends ConsumerWidget {
           TextButton(
             onPressed: () => showLicensePage(
               context: context,
-              applicationName: "Simple Music Player",
+              applicationName: "Ritesh Music",
               applicationVersion: version,
               applicationLegalese: "© 2026 Stephanus Alexander Momot",
             ),

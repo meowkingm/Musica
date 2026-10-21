@@ -238,7 +238,7 @@ Future<void> main() async {
       appWindow.minSize = const Size(800, 600);
       appWindow.size = initialSize;
       appWindow.alignment = Alignment.center;
-      appWindow.title = "Simple Music Player";
+      appWindow.title = "Ritesh Music";
       appWindow.show();
       debugPrint("[Main] BitsDojo Window Shown");
     });

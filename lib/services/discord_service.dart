@@ -320,7 +320,7 @@ class DiscordService {
           state: "by $artist${_lastIsPlaying ? "" : " (Paused)"}",
           assets: rpc.RPCAssets(
             largeImage: _lastImageUrl ?? 'app_icon',
-            largeText: album.isNotEmpty ? album : 'Simple Music Player',
+            largeText: album.isNotEmpty ? album : 'Ritesh Music',
           ),
           timestamps: _lastIsPlaying
               ? rpc.RPCTimestamps(

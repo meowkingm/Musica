@@ -19,7 +19,7 @@ class ShareableStatsCard extends StatelessWidget {
     required this.song,
     required this.playCount,
     this.title = "", // Kept for backward compat, but headerText is preferred
-    this.appName = "Simple Music Player",
+    this.appName = "Ritesh Music",
     this.imageOverride,
     this.totalPlaysLabel,
     this.headerText,
